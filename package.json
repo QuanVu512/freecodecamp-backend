@@ -1,0 +1,24 @@
+{
+  "author": "",
+  "dependencies": {
+    "@babel/generator": "7.29.7",
+    "@babel/parser": "7.29.7",
+    "@freecodecamp/freecodecamp-os": "3.5.4",
+    "babeliser": "0.6.0"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "name": "back-end-development-and-apis",
+  "private": true,
+  "scripts": {
+    "start": "node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js",
+    "curriculum:extract": "node test/extract.mjs",
+    "test": "node --test test/plugins.test.mjs && node test/run.mjs",
+    "test:lint": "node test/run.mjs --check lint",
+    "test:plugins": "node --test test/plugins.test.mjs",
+    "test:crash": "node test/run.mjs --check crash"
+  },
+  "type": "module",
+  "version": "1.1.18"
+}

@@ -1,0 +1,45 @@
+{
+  "version": "0.0.1",
+  "port": 8080,
+  "client": {
+    "assets": null,
+    "landing": {
+      "english": {
+        "title": "Back-End Development and APIs Certification",
+        "description": "In the Back-End Development and APIs Certification, you'll learn about Node.js, Express.js, websockets, security, authentication and more by completing a series of lessons, workshops, labs and quizzes.",
+        "faq-link": null,
+        "faq-text": null
+      }
+    },
+    "static": {
+      "/script/injectable.js": "./client/injectable.js"
+    }
+  },
+  "config": {
+    "projects.json": "config/projects.json",
+    "state.json": "config/state.json"
+  },
+  "curriculum": {
+    "locales": {
+      "english": "./curriculum/locales/english"
+    },
+    "assertions": null
+  },
+  "hotReload": {
+    "ignore": [
+      ".logs/.temp.log",
+      "config/",
+      "/node_modules/",
+      ".git",
+      "/target/",
+      ".vscode",
+      "freecodecamp.conf.json",
+      "__test",
+      "build-a-file-processor/assets/"
+    ]
+  },
+  "tooling": {
+    "helpers": "./tooling/helpers.js",
+    "plugins": "./tooling/plugins.js"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "files.exclude": {
+    ".devcontainer": true,
+    ".logs": true,
+    ".vscode": true,
+    "bash": true,
+    "client": true,
+    "config": true,
+    "curriculum": true,
+    "node_modules": true,
+    "tooling": true,
+    ".gitignore": true,
+    "freecodecamp.conf.json": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "README.md": true,
+    "build-a-timestamp-microservice": true,
+    "build-a-web-server": true,
+    "learn-nodejs-repl": true,
+    "build-a-case-converter": true,
+    "build-a-prime-number-checker-module": false,
+    "build-a-file-processor": true,
+    "build-a-family-movie-watchlist-api": true,
+    "build-a-random-joke-app": true,
+    "build-a-personal-profile-app": true,
+    "build-a-submission-form": true,
+    "build-a-data-sanitizer": true,
+    "build-a-weather-service-api": true,
+    "build-a-bank-api": true,
+    "build-a-resource-monitor": true,
+    "build-a-chat-app": true,
+    "build-jwt-protected-routes": true
+  },
+  "chat.disableAIFeatures": true,
+  "files.autoSave": "off",
+  "freecodecamp-courses.autoStart": false,
+  "freecodecamp-courses.prepare": "touch $(pwd)/.logs/.freecodecamp-os-lockfile",
+  "freecodecamp-courses.scripts.develop-course": "NODE_ENV=development npm run start",
+  "freecodecamp-courses.scripts.run-course": "NODE_ENV=production npm run start",
+  "freecodecamp-courses.workspace.previews": [
+    {
+      "open": true,
+      "showLoader": true,
+      "timeout": 4000,
+      "url": "https://supreme-sniffle-r74pw4gq956vc5q7w-8080.app.github.dev"
+    }
+  ],
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "args": [
+        "--init-file",
+        "./bash/sourcerer.sh"
+      ],
+      "icon": "terminal-bash",
+      "path": "bash"
+    }
+  }
+}
