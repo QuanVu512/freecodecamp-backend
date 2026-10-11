@@ -1,0 +1,20 @@
+{
+  "name": "build-a-personal-profile-app",
+  "version": "1.0.0",
+  "description": "My profile",
+  "keywords": [
+    "profile"
+  ],
+  "license": "MIT",
+  "author": "QuanVu512",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "lts": "^2.0.0"
+  }
+}
