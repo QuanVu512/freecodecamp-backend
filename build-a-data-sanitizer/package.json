@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "data sanitizer",
   "license": "BSD-3-Clause",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.3.0"
   }
 }
